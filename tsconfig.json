@@ -3,6 +3,8 @@
     "allowJs": true,
     "checkJs": true,
     "rootDir": "src",
-    "outDir": "dist"
+    "outDir": "dist",
+    "module": "ESNext",
+    "moduleResolution": "classic"
   }
 }
