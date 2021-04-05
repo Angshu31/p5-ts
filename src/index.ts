@@ -1,3 +1,7 @@
-import { xy } from "./xy";
+window.setup = () => {
+  createCanvas(400, 400);
+};
 
-console.log(xy);
+window.draw = () => {
+  background(71);
+};
