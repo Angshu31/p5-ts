@@ -1,7 +1,3 @@
-window.setup = () => {
-  createCanvas(400, 400);
-};
+import * as sketch from "./sketch.js";
 
-window.draw = () => {
-  background(71);
-};
+Object.assign(window, sketch);
